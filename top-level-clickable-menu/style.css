@@ -1,0 +1,21 @@
+/*TOP LEVEL CLICKABLE STYLES*/
+span.mobileCaret{display:none}
+.trigger_button{cursor:pointer; height: 40px; padding: 6px;font-size: 14px;line-height: 34px;}
+
+@media (max-width: 768px) {
+  .caret{display:none;}
+  .navbar-nav>li>a {width: 85%;}
+  span.mobileCaret{
+    color: #fff; 
+    display: inline;
+    width: 15%!important; 
+    z-index: 10000; 
+    text-align: center;}
+  span.mobileCaret:hover{
+    background-color: #f26522; 
+    cursor:pointer; 
+    height: 40px; 
+    padding: 4.5px;
+    font-size: 14px;
+    line-height: 34px;}  
+}

@@ -1,0 +1,25 @@
+/*DEFAULTS*/
+body{overflow-x: hidden; font-size: 16px; line-height: 1.5em;}
+img {max-width: 100%;height: auto;}
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.mainContent img.aligncenter {width: auto;}
+
+@media (max-width: 768px) {
+  .row .col-sm-2, .row .col-sm-3, .row .col-sm-4, .row .col-sm-5, .row .col-sm-6, .row .col-sm-7, .row .col-sm-8, .row .col-md-2, .row .col-md-3, .row .col-md-4, .row .col-md-5, .row .col-md-6, .row .col-md-7, .row .col-md-8, .row .col-lg-2, .row .col-lg-3, .row .col-lg-4, .row .col-lg-5, .row .col-lg-6, .row .col-lg-7, .row .col-lg-8{
+    margin-top: 10px;
+  }
+
+}
+
+
+
+
+.navbar-toggle {float:left; width: 100%; text-align: center;}
+@media (min-width: 768px) {
+    .dropdown:hover>.dropdown-menu {display: block;}
+}
